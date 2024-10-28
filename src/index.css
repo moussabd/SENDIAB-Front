@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Nunito, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --sd-primary: #3CB941;
+  --sd-secondary: #f9f9fd;
+  --text-color: #252525;
+  --hover-color: #2eb232;
+}
+
+body {
+  background-color: var(--sd-secondary);
+}
+
+a {
+  font-weight: 500;
+  color: var(--sd-primary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--hover-color);
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--sd-primary);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--sd-primary);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--hover-color);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
